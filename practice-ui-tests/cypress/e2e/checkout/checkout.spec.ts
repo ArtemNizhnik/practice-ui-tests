@@ -67,6 +67,4 @@ it('Cart total should be greater than zero', () => {
       expect(value).to.be.greaterThan(0);
     });
 });
-
-
 });
