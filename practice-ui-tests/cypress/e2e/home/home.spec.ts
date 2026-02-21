@@ -12,7 +12,7 @@ describe('Home Page Tests', () => {
 
   // 1
   it('Should open home page', () => {
-    cy.url().should('include', '/');
+    cy.url().should('eq', 'https://practicesoftwaretesting.com/');
   });
 
   // 2
